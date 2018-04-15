@@ -222,7 +222,7 @@ public class MSTform extends javax.swing.JFrame {
 
         Graphics g = jPanel1.getGraphics();
         g.setColor(Color.red);
-        g.fillOval(customerX, customerY, 5, 5);
+        g.fillOval(customerX+2, customerY+2, 5, 5);
         jPanel1.paintComponents(g);
 
         Customer.allCustomers.add(new Customer(customerX, customerY, customerCount));
