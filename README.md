@@ -1,1 +1,1 @@
-minimum-spanning-tree
+MST
